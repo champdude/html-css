@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'pog';
+    src: url('fonts/DeathMohawk_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'pog';
+    font-size: 3em;
+}
+h1{
+    font-family: pog;
+}
