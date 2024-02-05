@@ -55,6 +55,10 @@ section{
     font-family: var(--fonte3);
 }
 
+section > p{
+    padding-bottom: 1.5em;
+}
+
 section.anormal{
     background-color: white;
     color: black;
@@ -63,11 +67,26 @@ section.anormal{
 section.video{
     background-color: grey;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.233);
+    background-attachment: fixed;
 }
 
 section.video > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#v10 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#v20{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
